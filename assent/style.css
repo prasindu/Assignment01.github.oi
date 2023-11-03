@@ -1,0 +1,125 @@
+.head{
+    background-color: rgb(116, 62, 233);
+    margin-bottom: 0px;
+    
+}
+.headtext{
+    text-align:center ;
+    color: white;
+    margin: 0px;
+    
+    font-weight: 800;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 0px;
+}
+.text01{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    
+
+   
+}
+.text-div{
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    right: 10px;
+}
+.C{
+    width: 240px;
+    height: 350px;
+    background-color:white;
+    display: flex;
+    position: relative;
+    margin-right: 20px;
+   
+}
+.img1{
+    width: 150px;
+    height: 200px;
+    display: grid;
+   margin-left: 50px;
+   margin-top: 15px;
+    
+}
+.bu01{
+    background-color: rgb(36, 100, 240);
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    border-radius: 2px;
+    margin-top: 0px;
+    transition: box-shadow 1s,background-color 1s;
+}
+.bu01:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0,0, 0.5);
+    background-color: blue;
+}
+.bu01:active{
+    opacity: 0.5;
+}
+.button{
+    text-align: center;
+    margin-top:0px ;
+    margin-bottom: 30px;
+    display: flex;
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+    right: 0px;
+    justify-content: center;
+    
+    
+}
+.B{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+.A{
+    background-color: rgb(222, 217, 217);
+    padding: 30px;
+    padding-left: 60px;
+    margin-top: 0px;
+    
+}
+.D{
+    background-color: rgb(245, 163, 11);
+    height: 250px;
+    margin-top: 10px;
+}
+.E{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    font-style: oblique;
+
+
+}
+.cart-img{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    
+
+}
+
+.close-icon{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+.H, .add-item{
+    display: inline-block;
+}
+.add-item{
+    margin-left: 80px;
+}
